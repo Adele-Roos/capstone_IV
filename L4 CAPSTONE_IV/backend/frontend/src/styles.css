@@ -1,0 +1,143 @@
+/* styles.css */
+
+/* Global styling for the entire body */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #8aa637;
+  margin: auto;
+  align-items: center;
+}
+
+/* Styling for the main container holding the content */
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 50px;
+}
+
+/* Styling for individual content sections */
+.content {
+  text-align: left;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: #c1c1c1;
+  margin-right: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading style for the main title */
+h1 {
+  color: rgb(2, 2, 33);
+  margin-bottom: 20px;
+}
+
+/* Heading style for secondary titles */
+h2 {
+  font-size: 20px;
+}
+
+/* Styling for subheadings */
+h4 {
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* General paragraph style */
+p {
+  color: rgb(60, 59, 59);
+  font-size: 12px;
+}
+
+/* Styling for user details text */
+.user_details {
+  color: #022c0c;
+  font-size: 16px;
+}
+
+/* Styling for user avatar images */
+img {
+  max-width: 80px;
+  height: auto;
+  border-radius: 50%; /* Make the avatar images round */
+}
+
+/* Styling for buttons */
+button {
+  padding: 3px 7px;
+  margin: 5px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  background-color: rgb(15, 15, 68);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: rgb(31, 130, 46);
+}
+
+/* Styling for lists */
+ul, li {
+  list-style-type: none;
+}
+
+/* Additional styling for unordered lists */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Styling for commit information */
+.commits {
+  color: #022c0c;
+  font-size: 12px;
+}
+
+/* Styling for list items with hover effect */
+ul li {
+  cursor: pointer;
+  transition: color 0.3s ease;
+  margin: 10px 0;
+}
+
+/* Styling for hyperlinks within list items */
+ul li a {
+  color: #022c0c;
+  text-decoration: none;
+}
+
+/* Hover effect for hyperlinks within list items */
+ul li a:hover {
+  color: navy;
+}
+
+/* Styling for loading message */
+.loading {
+  font-style: italic;
+  color: #555;
+}
+
+/* Additional styling for repository details section */
+.repo-details {
+  margin-top: 20px;
+}
+
+/* Heading style for repository details */
+.repo-details h3 {
+  color: rgb(17, 17, 74);
+}
+
+/* Styling for lists within repository details */
+.repo-details ul {
+  padding: 0;
+}
+
+/* Styling for list items within repository details */
+.repo-details li {
+  margin: 10px 0;
+}

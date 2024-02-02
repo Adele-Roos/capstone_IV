@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App component snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="content"
+    >
+      <h1>
+        Github Explorer
+      </h1>
+      <input
+        placeholder="Search for a user"
+        type="text"
+        value=""
+      />
+      <button>
+        Search
+      </button>
+      <br />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders loading state snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="content"
+    >
+      <h1>
+        Github Explorer
+      </h1>
+      <input
+        placeholder="Search for a user"
+        type="text"
+        value=""
+      />
+      <button>
+        Search
+      </button>
+      <br />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders search results snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="content"
+    >
+      <h1>
+        Github Explorer
+      </h1>
+      <input
+        placeholder="Search for a user"
+        type="text"
+        value=""
+      />
+      <button>
+        Search
+      </button>
+      <br />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders user details snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="content"
+    >
+      <h1>
+        Github Explorer
+      </h1>
+      <input
+        placeholder="Search for a user"
+        type="text"
+        value=""
+      />
+      <button>
+        Search
+      </button>
+      <br />
+    </div>
+  </div>
+</DocumentFragment>
+`;
